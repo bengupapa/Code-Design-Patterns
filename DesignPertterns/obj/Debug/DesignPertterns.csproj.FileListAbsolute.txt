@@ -1,0 +1,12 @@
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPertterns.exe.config
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPertterns.exe
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPertterns.pdb
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\obj\Debug\DesignPertterns.csprojResolveAssemblyReference.cache
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\obj\Debug\DesignPertterns.exe
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\obj\Debug\DesignPertterns.pdb
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPatterns.Strategy.dll
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPatterns.Strategy.pdb
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPatterns.Observer.dll
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPatterns.Observer.pdb
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPatterns.Factory.dll
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPertterns\bin\Debug\DesignPatterns.Factory.pdb
