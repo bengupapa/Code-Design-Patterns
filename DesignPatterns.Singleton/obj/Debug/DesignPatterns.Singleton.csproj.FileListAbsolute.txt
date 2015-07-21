@@ -1,0 +1,4 @@
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Singleton\bin\Debug\DesignPatterns.Singleton.dll
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Singleton\bin\Debug\DesignPatterns.Singleton.pdb
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Singleton\obj\Debug\DesignPatterns.Singleton.dll
+C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Singleton\obj\Debug\DesignPatterns.Singleton.pdb
