@@ -2,4 +2,3 @@ C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\Des
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Observer\bin\Debug\DesignPatterns.Observer.pdb
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.dll
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.pdb
-C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.csprojResolveAssemblyReference.cache

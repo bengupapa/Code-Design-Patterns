@@ -1,5 +1,4 @@
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Factory\bin\Debug\DesignPatterns.Factory.dll
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Factory\bin\Debug\DesignPatterns.Factory.pdb
-C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Factory\obj\Debug\DesignPatterns.Factory.csprojResolveAssemblyReference.cache
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Factory\obj\Debug\DesignPatterns.Factory.dll
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Factory\obj\Debug\DesignPatterns.Factory.pdb

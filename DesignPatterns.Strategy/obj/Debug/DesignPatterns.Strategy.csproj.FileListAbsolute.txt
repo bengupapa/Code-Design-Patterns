@@ -2,4 +2,3 @@ C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\Des
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Strategy\bin\Debug\DesignPatterns.Strategy.pdb
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.dll
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.pdb
-C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.csprojResolveAssemblyReference.cache

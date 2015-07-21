@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DesignPatterns.Strategy;
 using DesignPatterns.Observer;
 using DesignPatterns.Factory;
+using DesignPatterns.Singleton;
 
 namespace DesignPertterns
 {
@@ -13,7 +14,7 @@ namespace DesignPertterns
     {
         static void Main(string[] args)
         {
-            //OBSERVER
+            //STRATEGY PATTERN
             executeStrategyDesignPattern();
 
             //OSERVER PATTERN
@@ -22,7 +23,49 @@ namespace DesignPertterns
             //FACTORY PATTERN
             executeFactoryDesignParttern();
 
+            //SINGLETON PATTERN
+            executeSingletonDesignParttern();
+
             Console.Read();
+        }
+
+        /// <summary>
+        /// Use singleton pattern: When you want to eliminate the option of instantiating more than one object
+        /// Advantages:
+        /// -
+        /// </summary>
+        private static void executeSingletonDesignParttern()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("SINGLETON PATTERN \n");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            var BaseClass = BaseManager.GetInstance();
+
+            BaseClass.Players.ForEach(p =>
+            {
+                Console.WriteLine("Name : " + p.PlayerName + " Games : " + p.GetGamesPlayed() + " Salary: " + p.Remuneration);
+
+                //Change set 1 on the initial instance
+                p.SetRemuneration(1000750);
+            });
+
+            //Change set 2 on the initial instance
+            var player = BaseClass.Players.SingleOrDefault(p => p.PlayerName == "Papa Bengu");
+            BaseClass.Players.Remove(player);
+
+            Console.WriteLine("\n");
+            Console.WriteLine("After getting new instance \n");
+
+            //Idealy getting a new instance. Change set 1 and 2 should not available on this new instance
+            var BaseClass2 = BaseManager.GetInstance();
+
+            BaseClass.Players.ForEach(p =>
+            {
+                Console.WriteLine("Name : " + p.PlayerName + " Games : " + p.GetGamesPlayed() + " Salary: " + p.Remuneration);
+            });
+
+            Console.WriteLine("------------------- \n");
         }
 
         /// <summary>
@@ -37,7 +80,9 @@ namespace DesignPertterns
         /// </summary>
         private static void executeStrategyDesignPattern()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("STRATEGY PATTERN \n");
+            Console.ForegroundColor = ConsoleColor.White;
 
             Booking hotel = new HotelBooking(new Traveller("Papa", "Bengu"));
             Booking flight = new FlightBooking(new Traveller("Dikeledi", "Ngqwemla"));
@@ -66,7 +111,9 @@ namespace DesignPertterns
         /// </summary>
         private static void executeObserverDesignPattern()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("OBSERVER PATTERN \n");
+            Console.ForegroundColor = ConsoleColor.White;
 
             IPublisher publisher = new Subject()
             {
@@ -104,8 +151,9 @@ namespace DesignPertterns
         /// </summary>
         private static void executeFactoryDesignParttern()
         {
-
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("FACTORY PATTERN \n");
+            Console.ForegroundColor = ConsoleColor.White;
 
             Console.WriteLine(BookingTypeFactory.makeBooking(1).ToString() + "\n");
             Console.WriteLine(BookingTypeFactory.makeBooking(2).ToString() + "\n");

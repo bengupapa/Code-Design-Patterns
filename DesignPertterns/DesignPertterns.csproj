@@ -56,6 +56,10 @@
       <Project>{308a27cd-dc57-48c5-ac4d-064cb5b3a631}</Project>
       <Name>DesignPatterns.Observer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj">
+      <Project>{c97b3f24-3018-40cd-a826-876ace00457d}</Project>
+      <Name>DesignPatterns.Singleton</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj">
       <Project>{14e7709f-88ca-4d5e-9858-713012acf9fe}</Project>
       <Name>DesignPatterns.Strategy</Name>
