@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DesignPertterns</RootNamespace>
     <AssemblyName>DesignPertterns</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,6 +49,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
+      <Project>{269fff30-3e9b-448a-a7d5-c7535a037415}</Project>
+      <Name>DesignPatterns.AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Builder\DesignPatterns.Builder.csproj">
+      <Project>{5069d659-e9f8-4826-80a1-dc025b78d69f}</Project>
+      <Name>DesignPatterns.Builder</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Factory\DesignPatterns.Factory.csproj">
       <Project>{5e1094ef-8cea-4dbe-974a-52652849be9e}</Project>
       <Name>DesignPatterns.Factory</Name>
@@ -55,6 +64,10 @@
     <ProjectReference Include="..\DesignPatterns.Observer\DesignPatterns.Observer.csproj">
       <Project>{308a27cd-dc57-48c5-ac4d-064cb5b3a631}</Project>
       <Name>DesignPatterns.Observer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Prototype\DesignPatterns.Prototype.csproj">
+      <Project>{2e4d7f8e-5193-44a7-9ddf-7ea806413575}</Project>
+      <Name>DesignPatterns.Prototype</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj">
       <Project>{c97b3f24-3018-40cd-a826-876ace00457d}</Project>

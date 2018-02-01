@@ -7,6 +7,11 @@ using DesignPatterns.Strategy;
 using DesignPatterns.Observer;
 using DesignPatterns.Factory;
 using DesignPatterns.Singleton;
+using DesignPatterns.Builder;
+using DesignPatterns.Builder.Interfaces;
+using DesignPatterns.Builder.Models;
+using DesignPatterns.AbstractFactory;
+using DesignPatterns.Prototype;
 
 namespace DesignPertterns
 {
@@ -14,17 +19,26 @@ namespace DesignPertterns
     {
         static void Main(string[] args)
         {
-            //STRATEGY PATTERN
-            executeStrategyDesignPattern();
+            //ABSTRACT FACTORY PATTERN
+            ExecuteAbstractFactoryDesignPattern();
 
-            //OSERVER PATTERN
-            executeObserverDesignPattern();
+            //BUILDER PATTERN
+            ExecuteBuilderDesignPattern();
 
             //FACTORY PATTERN
-            executeFactoryDesignParttern();
+            ExecuteFactoryDesignParttern();
+
+            //OSERVER PATTERN
+            ExecuteObserverDesignPattern();
 
             //SINGLETON PATTERN
-            executeSingletonDesignParttern();
+            ExecuteSingletonDesignParttern();
+
+            //STRATEGY PATTERN
+            ExecuteStrategyDesignPattern();
+
+            //PROTOTYPE PATTERN
+            ExecutePrototyDesignPattern();
 
             Console.Read();
         }
@@ -34,13 +48,13 @@ namespace DesignPertterns
         /// Advantages:
         /// -
         /// </summary>
-        private static void executeSingletonDesignParttern()
+        private static void ExecuteSingletonDesignParttern()
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("SINGLETON PATTERN \n");
             Console.ForegroundColor = ConsoleColor.White;
 
-            var BaseClass = BaseManager.GetInstance();
+            var BaseClass = BaseManager.Instance;
 
             BaseClass.Players.ForEach(p =>
             {
@@ -58,7 +72,7 @@ namespace DesignPertterns
             Console.WriteLine("After getting new instance \n");
 
             //Idealy getting a new instance. Change set 1 and 2 should not available on this new instance
-            var BaseClass2 = BaseManager.GetInstance();
+            var BaseClass2 = BaseManager.Instance;
 
             BaseClass.Players.ForEach(p =>
             {
@@ -78,7 +92,7 @@ namespace DesignPertterns
         /// Disadvantage: 
         /// -Increased number of object/ classes
         /// </summary>
-        private static void executeStrategyDesignPattern()
+        private static void ExecuteStrategyDesignPattern()
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("STRATEGY PATTERN \n");
@@ -109,7 +123,7 @@ namespace DesignPertterns
         /// DISADVANTAGES
         /// -Publisher may send updates that don't matter to the subscriber
         /// </summary>
-        private static void executeObserverDesignPattern()
+        private static void ExecuteObserverDesignPattern()
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("OBSERVER PATTERN \n");
@@ -125,15 +139,15 @@ namespace DesignPertterns
             ISubscriber dikeledi = new Observer(publisher);
             ISubscriber papa = new Observer(publisher);
 
-            Console.WriteLine("\n Published to {0} observers \n", publisher.publish());
+            Console.WriteLine("\n Published to {0} observers \n", publisher.Publish());
 
             ((Subject)publisher).imbStock = 1000.02;
 
             ISubscriber madillo = new Observer(publisher);
             ISubscriber nozy = new Observer(publisher);
-            publisher.unregisterObserver(dikeledi);
+            publisher.DeregisterObserver(dikeledi);
 
-            Console.WriteLine("\n Published to {0} observers \n", publisher.publish());
+            Console.WriteLine("\n Published to {0} observers \n", publisher.Publish());
 
             Console.WriteLine("------------------- \n");
         }
@@ -149,15 +163,71 @@ namespace DesignPertterns
         /// -When you don;t want the user ti have to know every subclass
         /// -To encapsulate object creation
         /// </summary>
-        private static void executeFactoryDesignParttern()
+        private static void ExecuteFactoryDesignParttern()
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("FACTORY PATTERN \n");
             Console.ForegroundColor = ConsoleColor.White;
 
-            Console.WriteLine(BookingTypeFactory.makeBooking(1).ToString() + "\n");
-            Console.WriteLine(BookingTypeFactory.makeBooking(2).ToString() + "\n");
-            Console.WriteLine(BookingTypeFactory.makeBooking(3).ToString() + "\n");
+            Console.WriteLine(BookingTypeFactory.CreateBookingType(1).ToString() + "\n");
+            Console.WriteLine(BookingTypeFactory.CreateBookingType(2).ToString() + "\n");
+            Console.WriteLine(BookingTypeFactory.CreateBookingType(3).ToString() + "\n");
+
+            Console.WriteLine("------------------- \n");
+        }
+
+        private static void ExecuteBuilderDesignPattern()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("BUILDER PATTERN \n");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            IMatterBuilder builder = new BondBuilder();
+            MatterBuilderDirector Director = new MatterBuilderDirector(builder);
+
+            IMatter bond = Director.ConstructMatter();
+
+            Console.WriteLine("MORTGAGORS: {0}", String.Join("; ", bond.Morgagors.ToArray()));
+            Console.WriteLine("PARTIES: {0}", String.Join("; ", bond.Parties.ToArray()));
+            Console.WriteLine("PROPERTIES: {0}", String.Join("; ", bond.Properties.ToArray()));
+
+            Console.WriteLine("FINANCIALS: ");
+            bond.Financials.ToList().ForEach(fin =>
+            {
+                Console.WriteLine($"{fin.Key} : {fin.Value}");
+            });
+
+            Console.WriteLine("------------------- \n");
+        }
+
+        private static void ExecuteAbstractFactoryDesignPattern()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("ABSTRACTOR PATTERN \n");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            var client = new Client();
+
+            client.BuilderCars().ForEach(car =>
+            {
+                Console.WriteLine($"{car.Make} => {car.WheelBase} wheels => {car.Brake()}");
+            });
+
+            Console.WriteLine("------------------- \n");
+        }
+
+        public static void ExecutePrototyDesignPattern()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("PROTOTYPE PATTERN \n");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            var sheep = new Animal() { Name = "Sheepy" };
+            var cloner = new Cloner();
+            var dolly = cloner.Clone<Animal>(sheep);
+
+            Console.WriteLine($"{sheep.Name} at {sheep.GetHashCode()}");
+            Console.WriteLine($"{dolly.Name} at {dolly.GetHashCode()}");
 
             Console.WriteLine("------------------- \n");
         }

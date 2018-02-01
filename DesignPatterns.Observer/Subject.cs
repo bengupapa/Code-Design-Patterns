@@ -18,20 +18,20 @@ namespace DesignPatterns.Observer
             Observers = new List<ISubscriber>();
         }
 
-        public void registerObserver(ISubscriber observer)
+        public void RegisterObserver(ISubscriber observer)
         {
             Observers.Add(observer);
         }
 
-        public void unregisterObserver(ISubscriber observer)
+        public void DeregisterObserver(ISubscriber observer)
         {
             if (Observers.Contains(observer))
                 Observers.Remove(observer);
         }
 
-        public int publish()
+        public int Publish()
         {
-            Observers.ForEach(o => o.update(imbStock, mcsoftStock, nasStock));
+            Observers.ForEach(o => o.Update(imbStock, mcsoftStock, nasStock));
             return Observers.Count();
         }
     }

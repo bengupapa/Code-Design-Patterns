@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Strategy
 {
-    public interface IReprice
+    public interface IRepriceStrategy
     {
         bool updatePrice();
     }
 
-    public class hasReprice: IReprice
+    public class HasRepriceStrategy: IRepriceStrategy
     {
         public bool updatePrice()
         {
@@ -19,7 +19,7 @@ namespace DesignPatterns.Strategy
         }
     }
 
-    public class noReprice: IReprice
+    public class NoRepriceStrategy: IRepriceStrategy
     {
         public bool updatePrice()
         {

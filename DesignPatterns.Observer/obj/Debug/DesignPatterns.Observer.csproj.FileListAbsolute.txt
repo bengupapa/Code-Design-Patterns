@@ -2,3 +2,13 @@ C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\Des
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Observer\bin\Debug\DesignPatterns.Observer.pdb
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.dll
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.pdb
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Observer\bin\Debug\DesignPatterns.Observer.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Observer\bin\Debug\DesignPatterns.Observer.pdb
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Observer\bin\Debug\DesignPatterns.Observer.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Observer\bin\Debug\DesignPatterns.Observer.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Observer\obj\Debug\DesignPatterns.Observer.pdb

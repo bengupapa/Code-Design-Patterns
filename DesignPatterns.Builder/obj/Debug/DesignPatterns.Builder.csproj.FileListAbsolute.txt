@@ -1,0 +1,10 @@
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Builder\bin\Debug\DesignPatterns.Builder.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Builder\bin\Debug\DesignPatterns.Builder.pdb
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Builder\obj\Debug\DesignPatterns.Builder.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Builder\obj\Debug\DesignPatterns.Builder.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Builder\obj\Debug\DesignPatterns.Builder.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Builder\bin\Debug\DesignPatterns.Builder.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Builder\bin\Debug\DesignPatterns.Builder.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Builder\obj\Debug\DesignPatterns.Builder.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Builder\obj\Debug\DesignPatterns.Builder.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Builder\obj\Debug\DesignPatterns.Builder.pdb

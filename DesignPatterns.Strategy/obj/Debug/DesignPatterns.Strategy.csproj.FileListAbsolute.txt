@@ -2,3 +2,13 @@ C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\Des
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Strategy\bin\Debug\DesignPatterns.Strategy.pdb
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.dll
 C:\Users\papa.bengu\Desktop\Development\Code Design Patterns\DesignPertterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.pdb
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Strategy\bin\Debug\DesignPatterns.Strategy.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Strategy\bin\Debug\DesignPatterns.Strategy.pdb
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Strategy\bin\Debug\DesignPatterns.Strategy.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Strategy\bin\Debug\DesignPatterns.Strategy.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.Strategy\obj\Debug\DesignPatterns.Strategy.pdb

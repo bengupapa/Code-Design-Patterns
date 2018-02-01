@@ -9,7 +9,6 @@ namespace DesignPatterns.Singleton
     public class BaseManager
     {
         private static BaseManager InitialInstance = null;
-
         public List<IPayer> Players;
 
         private BaseManager()
@@ -24,12 +23,12 @@ namespace DesignPatterns.Singleton
             Players.ForEach(p => p.SetRemuneration());
         }
 
-        public static BaseManager GetInstance()
+        public static BaseManager Instance
         {
-            if(InitialInstance == null)
-                InitialInstance = new BaseManager();
-
-            return InitialInstance;
+            get
+            {
+                return InitialInstance ?? (InitialInstance = new BaseManager());
+            }
         }
 
     }

@@ -8,22 +8,16 @@ namespace DesignPatterns.Factory
 {
     public static class BookingTypeFactory
     {
-        public static FBooking makeBooking(int type)
+        public static FBooking CreateBookingType(int type)
         {
-            if (type == (int)BookingTypeEnum.Flight)
-
-                return new Flight(5640, ApprovalStatusEnum.Approved);
-
-            else if (type == (int)BookingTypeEnum.Hotel)
-
-                return new Hotel(860, ApprovalStatusEnum.Booked);
-
-            else if (type == (int)BookingTypeEnum.Car)
-
-                return new Car(1230, ApprovalStatusEnum.Cancelled);
-
-            else
-                return null;
+            BookingTypeEnum bookingType = (BookingTypeEnum)type;
+            switch (bookingType)
+            {
+                case BookingTypeEnum.Flight: return new Flight(5640, ApprovalStatusEnum.Approved);
+                case BookingTypeEnum.Hotel: return new Hotel(860, ApprovalStatusEnum.Booked);
+                case BookingTypeEnum.Car: return new Car(1230, ApprovalStatusEnum.Cancelled);
+                default: throw new ArgumentException("Unknown booking type");
+            }
         }
     }
 }
