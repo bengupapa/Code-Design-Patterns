@@ -20,10 +20,10 @@ namespace DesignPatterns.Observer
             this.subject = subject;
             this.observerId = ++CONSTANTID;
 
-            subject.registerObserver(this);
+            subject.RegisterObserver(this);
         }
 
-        public void update(double imb, double mcsoft, double nas)
+        public void Update(double imb, double mcsoft, double nas)
         {
             this.imbStock = imb;
             this.mcsoftStock = mcsoft;

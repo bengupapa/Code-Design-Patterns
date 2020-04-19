@@ -12,7 +12,7 @@ namespace DesignPatterns.Strategy
         {
             this.bookingType = (int)bookingTypeEnum.Flight;
             this.bookingAmount = 1250.00;
-            this.RepriceAbility = new hasReprice();
+            this.RepriceAbility = new HasRepriceStrategy();
             this.traveller = newTraveller;
         }
     }

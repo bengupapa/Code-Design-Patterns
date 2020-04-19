@@ -13,7 +13,7 @@ namespace DesignPatterns.Strategy
             this.bookingType = (int)bookingTypeEnum.Hotel;
             this.traveller = newTraveller;
             this.bookingAmount = 986.00;
-            this.RepriceAbility = new noReprice();
+            this.RepriceAbility = new NoRepriceStrategy();
         }
 
     }

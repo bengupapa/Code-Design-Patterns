@@ -8,6 +8,6 @@ namespace DesignPatterns.Observer
 {
     public interface ISubscriber
     {
-        void update(double imb, double mcsoft, double nas);
+        void Update(double imb, double mcsoft, double nas);
     }
 }

@@ -8,8 +8,8 @@ namespace DesignPatterns.Observer
 {
     public interface IPublisher
     {
-        void registerObserver(ISubscriber observer);
-        void unregisterObserver(ISubscriber observer);
-        int publish();
+        void RegisterObserver(ISubscriber observer);
+        void DeregisterObserver(ISubscriber observer);
+        int Publish();
     }
 }

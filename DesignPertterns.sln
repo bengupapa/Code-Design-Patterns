@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPertterns", "DesignPertterns\DesignPertterns.csproj", "{139F18ED-BA93-4205-99C4-E892EE638DD6}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Factory", "DesignPatterns.Factory\DesignPatterns.Factory.csproj", "{5E1094EF-8CEA-4DBE-974A-52652849BE9E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Singleton", "DesignPatterns.Singleton\DesignPatterns.Singleton.csproj", "{C97B3F24-3018-40CD-A826-876ACE00457D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder", "DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{5069D659-E9F8-4826-80A1-DC025B78D69F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory", "DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj", "{269FFF30-3E9B-448A-A7D5-C7535A037415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Prototype", "DesignPatterns.Prototype\DesignPatterns.Prototype.csproj", "{2E4D7F8E-5193-44A7-9DDF-7EA806413575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{C97B3F24-3018-40CD-A826-876ACE00457D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C97B3F24-3018-40CD-A826-876ACE00457D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C97B3F24-3018-40CD-A826-876ACE00457D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5069D659-E9F8-4826-80A1-DC025B78D69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5069D659-E9F8-4826-80A1-DC025B78D69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5069D659-E9F8-4826-80A1-DC025B78D69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5069D659-E9F8-4826-80A1-DC025B78D69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269FFF30-3E9B-448A-A7D5-C7535A037415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269FFF30-3E9B-448A-A7D5-C7535A037415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269FFF30-3E9B-448A-A7D5-C7535A037415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269FFF30-3E9B-448A-A7D5-C7535A037415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4D7F8E-5193-44A7-9DDF-7EA806413575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4D7F8E-5193-44A7-9DDF-7EA806413575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4D7F8E-5193-44A7-9DDF-7EA806413575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4D7F8E-5193-44A7-9DDF-7EA806413575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

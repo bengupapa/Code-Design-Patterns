@@ -1,0 +1,10 @@
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.AbstractFactory\bin\Debug\DesignPatterns.AbstractFactory.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.AbstractFactory\bin\Debug\DesignPatterns.AbstractFactory.pdb
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.AbstractFactory\obj\Debug\DesignPatterns.AbstractFactory.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.AbstractFactory\obj\Debug\DesignPatterns.AbstractFactory.dll
+C:\Users\bengupj\Desktop\Pj Stuff\Dev\Code-Design-Patterns-master\DesignPatterns.AbstractFactory\obj\Debug\DesignPatterns.AbstractFactory.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.AbstractFactory\bin\Debug\DesignPatterns.AbstractFactory.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.AbstractFactory\bin\Debug\DesignPatterns.AbstractFactory.pdb
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.AbstractFactory\obj\Debug\DesignPatterns.AbstractFactory.csprojResolveAssemblyReference.cache
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.AbstractFactory\obj\Debug\DesignPatterns.AbstractFactory.dll
+C:\Users\bengupj\Documents\GitHub\Code-Design-Patterns\DesignPatterns.AbstractFactory\obj\Debug\DesignPatterns.AbstractFactory.pdb

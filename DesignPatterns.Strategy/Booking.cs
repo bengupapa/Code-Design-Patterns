@@ -11,15 +11,19 @@ namespace DesignPatterns.Strategy
         public int bookingType { get; set; }
         public Traveller traveller { get; set; }
         public double bookingAmount { get; set; }
-        public IReprice RepriceAbility {get; set; }
+        public IRepriceStrategy RepriceAbility {get; set; }
 
         public override string ToString()
         {
-            return ((bookingTypeEnum)bookingType).ToString() 
-                + " booked for " + traveller.ToString() 
-                + " for " + bookingAmount.ToString("C") 
-                + " and has reprice " 
-                + RepriceAbility.updatePrice(); 
+            var str = new StringBuilder(((bookingTypeEnum)bookingType).ToString());
+            str.Append(" booked for ")
+                .Append(traveller)
+                .Append(" for ")
+                .Append(bookingAmount.ToString("C"))
+                .Append(" and has reprice ")
+                .Append(RepriceAbility.updatePrice());
+
+            return str.ToString();
         }
     }
 
